@@ -10,7 +10,7 @@
 #include <ctype.h>
 
 /**
- * struct stack_s - doubly linked list 
+ * struct stack_s - doubly linked list
  * @n: number
  * @prev: pointe to the prev ele
  * @next: pointe to the next ele
@@ -39,7 +39,6 @@ typedef struct globals
 	char *bfr;
 	unsigned int currt;
 	char  *arg;
-	
 } global_t;
 
 /**
@@ -66,21 +65,21 @@ void stack_nop(stack_t **db, unsigned int cl);
 /*get function*/
 void (*opcodeGet(char *opc))(stack_t **stk, unsigned int nmLn);
 
-// copy of some funct
+/*copy of some funct*/
 int seaRch(char *str, char chart)
-// serching for char instring
+/* serching for char instring*/
 char *tokenStr(char *str, char *delim);
-// parsing string
+/*parsing string*/
 void *realloc_copy(void *pr, unsigned int odSz, unsigned int nwSz);
-// relloce the space located
+/* relloce the space located*/
 void *calloc_copy(unsigned int nb, unsigned int sz);
-// copy of callc functions
+/* copy of callc functions*/
 int compare_str(char *str1, char *str2);
 
-// free linked list
+/*free linked list*/
 void ovgloVide(void);
 
-// do some 
+/* do some*/
 stack_t *addToEnd(stack_t **debut, const int nber);
 stack_t *NodeAdd(stack_t **debut, const int n);
 void linkedVide(stack_t *debut);

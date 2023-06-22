@@ -3,7 +3,7 @@
 /**
  *addToEnd - function to add node to the and of list
  *@debut: the position
- *@n: linked list data
+ *@nber: linked list data
  *Return: db linked list
  */
 stack_t *addToEnd(stack_t **debut, const int nber)

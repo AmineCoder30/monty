@@ -59,7 +59,7 @@ void stack_pall(stack_t **db, unsigned int cl)
 
 /**
  * stack_pint - function print the ele of stakc or queue
- * @db: the head 
+ * @db: the head
  * @cl: number of line
  * Return: void
  */
