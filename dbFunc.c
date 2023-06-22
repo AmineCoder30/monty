@@ -19,7 +19,7 @@ stack_t *addToEnd(stack_t **debut, const int nber)
 		ovgloVide();
 		exit(EXIT_FAILURE);
 	}
-	t_m_p->nber = nber;
+	t_m_p->n = nber;
 	if (*debut == NULL)
 	{
 		t_m_p->next = *debut;

@@ -66,7 +66,7 @@ void stack_nop(stack_t **db, unsigned int cl);
 void (*opcodeGet(char *opc))(stack_t **stk, unsigned int nmLn);
 
 /*copy of some funct*/
-int seaRch(char *str, char chart)
+int seaRch(char *str, char chart);
 /* serching for char instring*/
 char *tokenStr(char *str, char *delim);
 /*parsing string*/
