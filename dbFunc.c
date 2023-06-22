@@ -3,7 +3,7 @@
 /**
  *addToEnd - function to add node to the and of list
  *@debut: the position
- *@n: linked list data
+ *@nber: linked list data
  *Return: db linked list
  */
 stack_t *addToEnd(stack_t **debut, const int nber)
@@ -19,7 +19,7 @@ stack_t *addToEnd(stack_t **debut, const int nber)
 		ovgloVide();
 		exit(EXIT_FAILURE);
 	}
-	t_m_p->nber = nber;
+	t_m_p->n = nber;
 	if (*debut == NULL)
 	{
 		t_m_p->next = *debut;

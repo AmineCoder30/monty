@@ -30,7 +30,7 @@ void stack_add(stack_t **db, unsigned int cl)
 }
 
 /**
- * _nop - doesn't do anythinhg
+ *stack_nop - doesn't do anythinhg
  *
  * @db: head of the linked list
  * @cl: line number;

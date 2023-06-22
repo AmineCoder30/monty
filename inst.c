@@ -14,7 +14,7 @@ void node_push(stack_t **db, unsigned int cl)
 	{
 		dprintf(2, "L%u: ", cl);
 		dprintf(2, "usage: push integer\n");
-		free_vglo();
+		ovgloVide();
 		exit(EXIT_FAILURE);
 	}
 
@@ -24,7 +24,7 @@ void node_push(stack_t **db, unsigned int cl)
 		{
 			dprintf(2, "L%u: ", cl);
 			dprintf(2, "usage: push integer\n");
-			free_vglo();
+			ovgloVide();
 			exit(EXIT_FAILURE);
 		}
 	}
@@ -59,7 +59,7 @@ void stack_pall(stack_t **db, unsigned int cl)
 
 /**
  * stack_pint - function print the ele of stakc or queue
- * @db: the head 
+ * @db: the head
  * @cl: number of line
  * Return: void
  */
@@ -71,7 +71,7 @@ void stack_pint(stack_t **db, unsigned int cl)
 	{
 		dprintf(2, "L%u: ", cl);
 		dprintf(2, "can't pint, stack empty\n");
-		free_vglo();
+		ovgloVide();
 		exit(EXIT_FAILURE);
 	}
 
@@ -91,7 +91,7 @@ void stack_pop(stack_t **db, unsigned int cl)
 	if (db == NULL || *db == NULL)
 	{
 		dprintf(2, "L%u: can't pop an empty stack\n", cl);
-		free_vglo();
+		ovgloVide();
 		exit(EXIT_FAILURE);
 	}
 	ourAux = *db;
@@ -118,7 +118,7 @@ void stack_swap(stack_t **db, unsigned int cl)
 	if (vrm < 2)
 	{
 		dprintf(2, "L%u: can't swap, stack too short\n", cl);
-		free_vglo();
+		ovgloVide();
 		exit(EXIT_FAILURE);
 	}
 
