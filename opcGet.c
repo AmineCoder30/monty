@@ -16,6 +16,7 @@ void (*opcodeGet(char *opc))(stack_t **stk, unsigned int nmLn)
 		{"swap", stack_swap},
 		{"add", stack_add},
 		{"nop", stack_nop},
+		{"sub", stack_sub},
 		{NULL, NULL}
 	};
 	int l;
