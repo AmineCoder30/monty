@@ -57,6 +57,7 @@ extern global_t vglo;
 void node_push(stack_t **db, unsigned int cl);
 void stack_pall(stack_t **db, unsigned int cl);
 void stack_pint(stack_t **db, unsigned int cl);
+void stack_mul(stack_t **db, unsigned int cl);
 void stack_pop(stack_t **db, unsigned int cl);
 void stack_swap(stack_t **db, unsigned int cl);
 void stack_add(stack_t **db, unsigned int cl);

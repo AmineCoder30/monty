@@ -13,6 +13,7 @@ void (*opcodeGet(char *opc))(stack_t **stk, unsigned int nmLn)
 		{"pall", stack_pall},
 		{"pint", stack_pint},
 		{"pop", stack_pop},
+		 {"mul", stack_mul},
 		{"swap", stack_swap},
 		{"add", stack_add},
 		{"nop", stack_nop},
