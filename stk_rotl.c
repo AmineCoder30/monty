@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * stack_rotl - return the fr to bottom 
+ * stack_rotl - return the fr to bottom
  * @db: ls debut
  * @cl: num of line
  * Return: void func
