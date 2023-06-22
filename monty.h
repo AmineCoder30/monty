@@ -62,6 +62,7 @@ void stack_swap(stack_t **db, unsigned int cl);
 void stack_add(stack_t **db, unsigned int cl);
 void stack_nop(stack_t **db, unsigned int cl);
 void stack_sub(stack_t **db, unsigned int cl);
+void stack_div(stack_t **db, unsigned int cl);
 /*get function*/
 void (*opcodeGet(char *opc))(stack_t **stk, unsigned int nmLn);
 
