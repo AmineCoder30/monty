@@ -55,6 +55,8 @@ typedef struct instruction_s
 extern global_t vglo;
 /*don’t do anything*/
 void node_push(stack_t **db, unsigned int cl);
+void stack_rotr(stack_t **db, unsigned int cl);
+void stack_rotl(stack_t **db, unsigned int cl);
 void stack_pall(stack_t **db, unsigned int cl);
 void stack_pint(stack_t **db, unsigned int cl);
 void stack_mul(stack_t **db, unsigned int cl);
